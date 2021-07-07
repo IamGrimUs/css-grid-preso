@@ -1,0 +1,28 @@
+.wrapper {
+	display: grid;
+	grid-gap: 10px;
+	font-family: Arial, sans-serif;
+}
+.wrapper > * {
+	padding: 1em;
+	border-radius: 1em;
+}
+header {
+	background-color: blue;
+	color: white;
+}
+article {
+	background-color: green;
+	color: white;
+}
+aside {
+	background-color: yellow;
+}
+@media (min-width: 650px) {
+	.wrapper {
+	}
+}
+@media (min-width: 1000px) {
+	.wrapper {
+	}
+}
